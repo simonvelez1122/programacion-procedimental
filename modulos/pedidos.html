@@ -4,12 +4,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Restaurante</title>
+    <link rel="stylesheet" href="../css/inventario.css">
 </head>
 <body>
     <h1>modulo de pedidos</h1>
     <hr>
-    <form action="">
+    <form class="formulario" action="">
+        <div class="field">
+            <label class="label">producto</label>
+            <div class="control">
+                <input class="input" type="text" placeholder="ingrese el producto" id="producto">
+            </div>
+        </div>
+
+        <div class="field">
+            <label class="label">direccion</label>
+            <div class="control">
+                <input class="input" type="text" placeholder="ingrese su direccion" id="direccion">
+            </div>
+        </div>
+        
+        <div class="field">
+            <label class="label">nombre del usuario</label>
+            <div class="control">
+                <input class="input" type="text" placeholder="ingrese nombre de usuario" id="nombre_usuario">
+            </div>
+        </div>
+       
+        <div class="field">
+            <label class="label">cantidad</label>
+            <div class="control">
+                <input class="input" type="text" placeholder="ingrese la cantidad" id="cantidad">
+            </div>
+        </div>
+       
+        <div class="field">
+            <label class="label">metodo de pago</label>
+            <div class="control">
+                <input class="input" type="text" placeholder="ingrese cantidad de productos" id="metodo_pago">
+            </div>
+        </div>
+      
+        <div class="field">
+            <label class="label">telefono</label>
+            <div class="control">
+                <input class="input" type="text" placeholder="ingrese su telefono" id="telefono">
+            </div>
+        </div>
+       
+        
+
+        <a href="../index.html">volver al inicio</a>
+        <button class="boton" type="submit">guardar</button>
+
 
     </form>
+    <script src="../js/pedidos.js"></script>
 </body>
 </html>

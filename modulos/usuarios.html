@@ -1,15 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Restaurante</title>
+    <link rel="stylesheet" href="../css/usuarios.css">
 </head>
+
 <body>
     <h1>modulo de usuarios</h1>
     <hr>
-    <form action="">
+    <form class="formulario" action="">
+        <div class="field">
+            <label class="label">nombre</label>
+            <div class="control">
+                <input class="input" type="text" placeholder="ingrese su nombre" id="nombre">
+            </div>
+        </div>
+
+        <div class="field">
+            <label class="label">apellido</label>
+            <div class="control">
+                <input class="input" type="text" placeholder="ingrese su apellido" id="apellido">
+            </div>
+        </div>
+       
+        <div class="field">
+            <label class="label">tipo de documento</label>
+            <br>
+            <select id="tipo_documento" name="tipo de documento">
+                <option value="tarjeta de identidad">tarjeta de identidad</option>
+                <option value="cc">cedula</option>
+            </select>
+            
+        </div>
+      
+        <div class="field">
+            <label class="label">numero de documento</label>
+            <div class="control">
+                <input class="input" type="text" placeholder="ingrese su numero de documento" id="numero_documento">
+            </div>
+        </div>
+        
+        <div class="field">
+            <label class="label">telefono</label>
+            <div class="control">
+                <input class="input" type="text" placeholder="ingrese su telefono" id="telefono">
+            </div>
+        </div>
+        
+        <div class="field">
+            <label class="label">correo electronico</label>
+            <div class="control">
+                <input class="input" type="email" placeholder="ingrese su correo" id="correo">
+            </div>
+        </div>
+        
+        <div class="field">
+            <label class="label">genero</label>
+            <div class="control">
+                <input class="input" type="text" placeholder="ingrese su genero" id="genero">
+            </div>
+        </div>
+       
+        <div class="field">
+            <label class="label">cargo</label>
+            <div class="control">
+                <input class="input" type="text" placeholder="ingrese su cargo" id="cargo">
+            </div>
+        </div>
+
+        <div class="field">
+            <label class="label">fecha de nacimiento</label>
+            <div class="control">
+                <input class="input" type="date" placeholder="ingrese su fecha de nacimiento" id="fecha_nacimiento">
+            </div>
+        </div>
+
+        <div class="field">
+            <label class="label">contraseña</label>
+            <div class="control">
+                <input class="input" type="text" placeholder="ingrese su contraseña" id="contraseña">
+            </div>
+        </div>
+
+        <a href="../index.html">volver al inicio</a>
+        <button class="boton" type="submit">guardar</button>
 
     </form>
+    <script src="../js/usuarios.js"></script>
 </body>
+
 </html>

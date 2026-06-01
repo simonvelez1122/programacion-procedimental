@@ -4,12 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Restaurante</title>
+    <link rel="stylesheet" href="../css/reservas.css">
 </head>
 <body>
     <h1>modulo de reservas</h1>
     <hr>
-    <form action="">
+    <form class="formulario" action="">
+        <div class="field">
+            <label class="label">tipo de mesa</label>
+            <div class="control">
+                <input class="input" type="text" placeholder="escriba el tipo de texto" id="tipo_mesa">
+            </div>
+        </div>
+
+        <div class="field">
+            <label class="label">nombre completo</label>
+            <div class="control">
+                <input class="input" type="text" placeholder="ingrese su nombre completo" id="nombre_completo">
+            </div>
+        </div>
+        
+        <div class="field">
+            <label class="label">fecha de reserva</label>
+            <div class="control">
+                <input class="input" type="date" placeholder="ingrese la fecha de la reserva" id="fecha_reserva" >
+            </div>
+        </div>
+       
+        <div class="field">
+            <label class="label">cantidad de reservas</label>
+            <div class="control">
+                <input class="input" type="text" placeholder="ingrese la cantidad de reserva" id="cantidad_reservas">
+            </div>
+        </div>
+       
+       
+        
+
+        <a href="../index.html">volver al inicio</a>
+        <button class="boton" type="submit">guardar</button>
+
 
     </form>
+    <script src="../js/reservas.js"></script>
 </body>
 </html>
